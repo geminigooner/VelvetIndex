@@ -1,0 +1,10 @@
+{"chunk_id":"merrow_harbor_dredging::fixed512::s1::w0","doc_id":"merrow_harbor_dredging","section_id":"s1","chunking":"fixed512","char_start":44,"char_end":263,"n_tokens":30}
+{"chunk_id":"merrow_harbor_dredging::fixed512::s2::w0","doc_id":"merrow_harbor_dredging","section_id":"s2","chunking":"fixed512","char_start":265,"char_end":535,"n_tokens":55}
+{"chunk_id":"merrow_harbor_dredging::fixed512::s3::w0","doc_id":"merrow_harbor_dredging","section_id":"s3","chunking":"fixed512","char_start":537,"char_end":798,"n_tokens":46}
+{"chunk_id":"merrow_harbor_dredging::fixed512::s4::w0","doc_id":"merrow_harbor_dredging","section_id":"s4","chunking":"fixed512","char_start":800,"char_end":1018,"n_tokens":32}
+{"chunk_id":"kelp_farming_ecology::fixed512::s1::w0","doc_id":"kelp_farming_ecology","section_id":"s1","chunking":"fixed512","char_start":44,"char_end":205,"n_tokens":21}
+{"chunk_id":"kelp_farming_ecology::fixed512::s2::w0","doc_id":"kelp_farming_ecology","section_id":"s2","chunking":"fixed512","char_start":207,"char_end":406,"n_tokens":35}
+{"chunk_id":"kelp_farming_ecology::fixed512::s3::w0","doc_id":"kelp_farming_ecology","section_id":"s3","chunking":"fixed512","char_start":408,"char_end":629,"n_tokens":39}
+{"chunk_id":"tidal_energy_systems::fixed512::s1::w0","doc_id":"tidal_energy_systems","section_id":"s1","chunking":"fixed512","char_start":57,"char_end":245,"n_tokens":27}
+{"chunk_id":"tidal_energy_systems::fixed512::s2::w0","doc_id":"tidal_energy_systems","section_id":"s2","chunking":"fixed512","char_start":247,"char_end":443,"n_tokens":35}
+{"chunk_id":"tidal_energy_systems::fixed512::s3::w0","doc_id":"tidal_energy_systems","section_id":"s3","chunking":"fixed512","char_start":445,"char_end":654,"n_tokens":33}

@@ -1,0 +1,98 @@
+{
+  "docs": [
+    {
+      "doc_id": "merrow_harbor_dredging",
+      "title": "Merrow Harbor Dredging & Benthic Ecology",
+      "sha256": "51213cf70a4e9b8f989922f5748465344e4775cc70e6dc8b59aaf5eac9c4847e",
+      "sections": [
+        {
+          "section_id": "s1",
+          "heading": "1. Introduction",
+          "char_start": 44,
+          "char_end": 265,
+          "level": 1
+        },
+        {
+          "section_id": "s2",
+          "heading": "2. Methods & Sediment Coring",
+          "char_start": 265,
+          "char_end": 537,
+          "level": 1
+        },
+        {
+          "section_id": "s3",
+          "heading": "3. Results & Dredging Impact",
+          "char_start": 537,
+          "char_end": 800,
+          "level": 1
+        },
+        {
+          "section_id": "s4",
+          "heading": "4. Discussion & Tidal Recovery",
+          "char_start": 800,
+          "char_end": 1020,
+          "level": 1
+        }
+      ],
+      "text": "# Merrow Harbor Dredging & Benthic Ecology\n\n## 1. Introduction\nMerrow Harbor has supported commercial maritime navigation since 1892. Recent hydrodynamic models indicate accelerated siltation along the northern navigational channel requiring periodic maintenance.\n\n## 2. Methods & Sediment Coring\nVibracore sediment samples were extracted at thirty-two stations across a 400-hectare grid, spanning depths from 4.2 to 18.5 meters below mean lower low water (MLLW). Grain size distributions were classified using standard sieve analysis.\n\n## 3. Results & Dredging Impact\nTurbidity plumes dissipated within 4.8 hours post-suction dredging. Benthic polychaete densities exhibited an initial 42% decline within 50 meters of the dredging footprint but recovered to baseline densities within seven months.\n\n## 4. Discussion & Tidal Recovery\nStrong semidiurnal tidal flushing accelerates natural benthic substrate re-equilibration. Controlled dredging windows mitigate adverse impacts during critical larval settlement stages.\n\n"
+    },
+    {
+      "doc_id": "kelp_farming_ecology",
+      "title": "Kelp Farming and Marine Nutrient Cycling",
+      "sha256": "63d51159525e777ca67427e38b4f3e30446bdd5e6e1e2b5d11b95ac0b3ba7684",
+      "sections": [
+        {
+          "section_id": "s1",
+          "heading": "1. Introduction",
+          "char_start": 44,
+          "char_end": 207,
+          "level": 1
+        },
+        {
+          "section_id": "s2",
+          "heading": "2. Nitrogen Assimilation",
+          "char_start": 207,
+          "char_end": 408,
+          "level": 1
+        },
+        {
+          "section_id": "s3",
+          "heading": "3. Canopy Biomass & Yields",
+          "char_start": 408,
+          "char_end": 631,
+          "level": 1
+        }
+      ],
+      "text": "# Kelp Farming and Marine Nutrient Cycling\n\n## 1. Introduction\nMacroalgal mariculture offers sustainable coastal bioremediation potential alongside valuable biomass production for bioplastics and biofuels.\n\n## 2. Nitrogen Assimilation\nSaccharina latissima lines sequestered dissolved inorganic nitrogen at an average rate of 1.42 grams of nitrogen per kilogram dry weight per day during peak spring growth.\n\n## 3. Canopy Biomass & Yields\nHarvest yields reached 18.6 metric tons fresh weight per hectare. Vertical array spacing optimized light penetration across stratified water layers without inducing self-shading canopy decay.\n\n"
+    },
+    {
+      "doc_id": "tidal_energy_systems",
+      "title": "Tidal Energy Systems & Hydrodynamic Flow Optimization",
+      "sha256": "c5eb9bbdc8d550b9eaa6e6ba5d9a71bb0635e2170294397f9378d1fe819e74c3",
+      "sections": [
+        {
+          "section_id": "s1",
+          "heading": "1. Hydrodynamic Principles",
+          "char_start": 57,
+          "char_end": 247,
+          "level": 1
+        },
+        {
+          "section_id": "s2",
+          "heading": "2. Turbine Array Spacing",
+          "char_start": 247,
+          "char_end": 445,
+          "level": 1
+        },
+        {
+          "section_id": "s3",
+          "heading": "3. Power Grid Integration",
+          "char_start": 445,
+          "char_end": 656,
+          "level": 1
+        }
+      ],
+      "text": "# Tidal Energy Systems & Hydrodynamic Flow Optimization\n\n## 1. Hydrodynamic Principles\nHorizontal-axis tidal turbines extract kinetic energy from bidirectional astronomical tidal flows without requiring impoundment barrages or hydrological dams.\n\n## 2. Turbine Array Spacing\nStaggered turbine farm layouts with seven-rotor-diameter streamwise separation preserved 84% of upstream kinetic energy flux compared to co-axial inline configurations.\n\n## 3. Power Grid Integration\nSubsea power collection hubs utilize high-voltage direct current (HVDC) conversion, minimizing transmission losses across offshore channels to terrestrial distribution substations.\n\n"
+    }
+  ]
+}

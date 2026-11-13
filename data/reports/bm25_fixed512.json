@@ -1,0 +1,211 @@
+{
+  "run_id": "bm25_fixed512",
+  "k": 5,
+  "mrr_depth": 10,
+  "min_overlap_chars": 50,
+  "mean_chunk_chars": 211.83333333333334,
+  "overall": {
+    "n": 5,
+    "hit": 1,
+    "hit_ci95": [
+      1,
+      1
+    ],
+    "hit_any": 1,
+    "recall": 1,
+    "mrr": 0.9,
+    "mrr_ci95": [
+      0.7,
+      1
+    ]
+  },
+  "by_type": {
+    "direct": {
+      "n": 3,
+      "hit": 1,
+      "hit_ci95": [
+        1,
+        1
+      ],
+      "hit_any": 1,
+      "recall": 1,
+      "mrr": 1,
+      "mrr_ci95": [
+        1,
+        1
+      ]
+    },
+    "paraphrase": {
+      "n": 1,
+      "hit": 1,
+      "hit_ci95": null,
+      "hit_any": 1,
+      "recall": 1,
+      "mrr": 0.5,
+      "mrr_ci95": null
+    },
+    "multi_chunk": {
+      "n": 1,
+      "hit": 1,
+      "hit_ci95": null,
+      "hit_any": 1,
+      "recall": 1,
+      "mrr": 1,
+      "mrr_ci95": null
+    }
+  },
+  "unanswerable": {
+    "n": 1,
+    "top1_mean": 3.103263,
+    "top1_max": 3.103263,
+    "threshold_sweep": [
+      {
+        "threshold": 3.1033,
+        "abstain_on_unanswerable": 0,
+        "answer_on_answerable": 1
+      },
+      {
+        "threshold": 5.1348,
+        "abstain_on_unanswerable": 1,
+        "answer_on_answerable": 1
+      },
+      {
+        "threshold": 7.1664,
+        "abstain_on_unanswerable": 1,
+        "answer_on_answerable": 0.8
+      },
+      {
+        "threshold": 9.198,
+        "abstain_on_unanswerable": 1,
+        "answer_on_answerable": 0.8
+      },
+      {
+        "threshold": 11.2295,
+        "abstain_on_unanswerable": 1,
+        "answer_on_answerable": 0.6
+      },
+      {
+        "threshold": 13.2611,
+        "abstain_on_unanswerable": 1,
+        "answer_on_answerable": 0.4
+      },
+      {
+        "threshold": 15.2926,
+        "abstain_on_unanswerable": 1,
+        "answer_on_answerable": 0.4
+      },
+      {
+        "threshold": 17.3242,
+        "abstain_on_unanswerable": 1,
+        "answer_on_answerable": 0.4
+      },
+      {
+        "threshold": 19.3558,
+        "abstain_on_unanswerable": 1,
+        "answer_on_answerable": 0.2
+      },
+      {
+        "threshold": 21.3873,
+        "abstain_on_unanswerable": 1,
+        "answer_on_answerable": 0.2
+      },
+      {
+        "threshold": 23.4189,
+        "abstain_on_unanswerable": 1,
+        "answer_on_answerable": 0.2
+      }
+    ]
+  },
+  "warnings": [],
+  "per_question": [
+    {
+      "qid": "q001",
+      "type": "direct",
+      "ranks": [
+        1
+      ],
+      "hit": 1,
+      "hit_any": 1,
+      "recall": 1,
+      "mrr": 1,
+      "top1": 12.881661,
+      "gold_chunk_ids": [
+        [
+          "merrow_harbor_dredging::fixed512::s3::w0"
+        ]
+      ]
+    },
+    {
+      "qid": "q002",
+      "type": "direct",
+      "ranks": [
+        1
+      ],
+      "hit": 1,
+      "hit_any": 1,
+      "recall": 1,
+      "mrr": 1,
+      "top1": 23.418905,
+      "gold_chunk_ids": [
+        [
+          "kelp_farming_ecology::fixed512::s2::w0"
+        ]
+      ]
+    },
+    {
+      "qid": "q003",
+      "type": "direct",
+      "ranks": [
+        1
+      ],
+      "hit": 1,
+      "hit_any": 1,
+      "recall": 1,
+      "mrr": 1,
+      "top1": 19.094434,
+      "gold_chunk_ids": [
+        [
+          "tidal_energy_systems::fixed512::s2::w0"
+        ]
+      ]
+    },
+    {
+      "qid": "q004",
+      "type": "paraphrase",
+      "ranks": [
+        2
+      ],
+      "hit": 1,
+      "hit_any": 1,
+      "recall": 1,
+      "mrr": 0.5,
+      "top1": 5.189863,
+      "gold_chunk_ids": [
+        [
+          "merrow_harbor_dredging::fixed512::s3::w0"
+        ]
+      ]
+    },
+    {
+      "qid": "q005",
+      "type": "multi_chunk",
+      "ranks": [
+        1,
+        2
+      ],
+      "hit": 1,
+      "hit_any": 1,
+      "recall": 1,
+      "mrr": 1,
+      "top1": 10.368332,
+      "gold_chunk_ids": [
+        [
+          "merrow_harbor_dredging::fixed512::s2::w0"
+        ],
+        [
+          "kelp_farming_ecology::fixed512::s3::w0"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "model_id": "google/embeddinggemma-2",
+  "native_dim": 768,
+  "header_parts": ["doc_title", "section_heading"],
+  "section_max_body_tokens": 8000,
+  "min_tail_fraction": 0.25,
+  "max_embed_tokens": 8192,
+  "batch_size": 32,
+  "vector_decimals": 8,
+  "default_depth": 10
+}

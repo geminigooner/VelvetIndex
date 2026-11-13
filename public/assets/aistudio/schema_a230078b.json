@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rag-eval-question",
+  "title": "One line of questions.jsonl",
+  "type": "object",
+  "required": ["qid", "type", "question", "expected_answer"],
+  "additionalProperties": false,
+  "properties": {
+    "qid": { "type": "string", "pattern": "^q[0-9]{3,}$" },
+    "type": { "enum": ["direct", "paraphrase", "multi_chunk", "unanswerable"] },
+    "split": { "enum": ["dev", "test"], "default": "dev" },
+    "question": { "type": "string", "minLength": 8 },
+    "expected_answer": { "type": ["string", "null"] },
+    "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } },
+    "paraphrase_of": { "type": "string", "pattern": "^q[0-9]{3,}$" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "type": { "const": "unanswerable" } } },
+      "then": {
+        "properties": { "expected_answer": { "type": "null" }, "evidence": { "maxItems": 0 } }
+      },
+      "else": {
+        "required": ["evidence"],
+        "properties": { "expected_answer": { "type": "string", "minLength": 1 } }
+      }
+    },
+    {
+      "if": { "properties": { "type": { "enum": ["direct", "paraphrase"] } } },
+      "then": { "properties": { "evidence": { "minItems": 1, "maxItems": 1 } } }
+    },
+    {
+      "if": { "properties": { "type": { "const": "multi_chunk" } } },
+      "then": { "properties": { "evidence": { "minItems": 2 } } }
+    },
+    {
+      "if": { "properties": { "type": { "const": "paraphrase" } } },
+      "then": { "required": ["paraphrase_of"] }
+    }
+  ],
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "description": "Gold source span. Chunking-independent: offsets index the normalized document text (UTF-16 code units, LF newlines).",
+      "required": ["doc_id", "section_id", "char_start", "char_end", "quote"],
+      "additionalProperties": false,
+      "properties": {
+        "doc_id": { "type": "string" },
+        "section_id": { "type": "string" },
+        "char_start": { "type": "integer", "minimum": 0 },
+        "char_end": { "type": "integer", "minimum": 1 },
+        "quote": { "type": "string", "minLength": 1, "description": "Verbatim text at [char_start, char_end); validate checks it." }
+      }
+    }
+  }
+}

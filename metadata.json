@@ -1,0 +1,6 @@
+{
+  "name": "RAG Evaluation & STAIR Retrieval Studio",
+  "description": "Comprehensive evaluation, inspection, and benchmarking workbench for RAG chunking, Matryoshka embeddings, and STAIR multi-arm retrieval.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
